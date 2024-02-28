@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44b27203-5a67-457a-8eb6-3af8c3a2ade0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/image_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_contrastive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_rank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_rank_swin_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_rank_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_rank_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/network_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainerSAM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainerSAMv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_contrastboth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_contrastencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_contrastencoder_gl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_contrastive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_contrastive_lr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_2d_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_2d_wce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_swin_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_v3_wce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_v4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank_v5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_swin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture/swinunet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference/predict_from_raw_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference/predict_from_raw_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference/sliding_window_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference/sliding_window_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/lr_scheduler/polylr.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/lr_scheduler/polylr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/nnUNetTrainer/nnUNetTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/nnUNetTrainer/nnUNetTrainer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WFPbXEuK2zw1G1yv5nsr1rzZrG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/petergong/Documents/code/3DSAM-adapter"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture" />
+      <recent name="$PROJECT_DIR$/training/nnUNetTrainer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/training/nnUNetTrainer/variants/network_architecture" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b27203-5a67-457a-8eb6-3af8c3a2ade0" name="Changes" comment="" />
+      <created>1696325426842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696325426842</updated>
+    </task>
+    <servers />
+  </component>
+</project>
