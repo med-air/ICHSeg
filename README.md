@@ -14,6 +14,12 @@ Specifically, our modified variant can be found in the [script](nnUNet/nnunetv2/
 
 For installing nnU-Net, please refer to the [instructions](nnUNet/documentation/installation_instructions.md).
 
+As the original repo is continuing upgrading, which may make our modification fail. Please install the historical version we provided in our repo.
+```sh
+cd nnUNet
+pip install -e .
+```
+
 For data preprocessing, please refer to the [instructions](nnUNet/documentation/dataset_format.md).
 
 For training and predicting nnU-Net, please refer to the [instructions](nnUNet/documentation/how_to_use_nnunet.md).
