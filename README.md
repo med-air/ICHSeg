@@ -3,10 +3,10 @@
 Implementation for ISBI 2024 paper Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement
 by Shizhan Gong, [Yuan Zhong](https://yzrealm.com/), Yuqi Gong, Nga Yan Chan, Wenao Ma, Calvin Hoi-Kwan Mak, Jill Abrigo, and [Qi Dou](https://www.cse.cuhk.edu.hk/~qdou/index.html).
 
-# Sample Results
+## Sample Results
 ![Alt text](assets/result.png?raw=true "Title")
 
-# Setup and Instruction
+## Setup and Instruction
 
 Our code is based on the framework of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). The training data preprocessing and training protocol is exactly the same as the original nnU-Net.
 
@@ -35,11 +35,11 @@ To predict with our learning-to-rank variant, change the command as
 nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c 3d_fullres -tr nnUNetTrainer_rank
 ```
 
-# Sample data
+## Sample data
 
 We use the data stored in `.nii.gz` format, two sample cases can be found in the [sample_data](sample_data).
 
-# Pre-trained Checkpoint
+## Pre-trained Checkpoint
 We provide several pre-trained checkpoints trained on our dataset correponding to different folds. You can download the [checkpoint]() here.
 
 ## Bibtex
