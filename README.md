@@ -10,13 +10,13 @@ by Shizhan Gong, [Yuan Zhong](https://yzrealm.com/), Yuqi Gong, Nga Yan Chan, We
 
 Our code is based on the framework of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). The training data preprocessing and training protocol is exactly the same as the original nnU-Net.
 
-Specifically, our modified variant can be found here:  
+Specifically, our modified variant can be found in the [script](nnUNet/nnunetv2/training/nnUNetTrainer/variants/network_architecture/nnUNetTrainer_rank.py).
 
-For installing nnU-Net, please refer to the instructions.
+For installing nnU-Net, please refer to the [instructions](nnUNet/documentation/installation_instructions.md).
 
-For data preprocessing, please refer to the instructions.
+For data preprocessing, please refer to the [instructions](nnUNet/documentation/dataset_format.md).
 
-For training and predicting nnU-Net, please refer to the instructions.
+For training and predicting nnU-Net, please refer to the [instructions](nnUNet/documentation/how_to_use_nnunet.md).
 
 To train with our learning-to-rank variant, change the command as 
 
@@ -31,10 +31,10 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c 3d_fu
 
 # Sample data
 
-We use the data stored in `.nii.gz` format, two sample cases can be found in the sample_data folder.
+We use the data stored in `.nii.gz` format, two sample cases can be found in the [sample_data](sample_data).
 
 # Pre-trained Checkpoint
-We provide several pre-trained checkpoint trained on our dataset correponds to different folds. You can download the [checkpoint]().
+We provide several pre-trained checkpoints trained on our dataset correponding to different folds. You can download the [checkpoint]() here.
 
 ## Bibtex
 If you find this work helpful, you can cite our paper as follows:
@@ -46,6 +46,8 @@ If you find this work helpful, you can cite our paper as follows:
   year={2024}
 }
 ```
+## Acknowledgement
+Our code is based on  [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
 
 ## Contact
 For any questions, please contact <a href="mailto:szgong22@cse.cuhk.edu.hk">szgong22@cse.cuhk.edu.hk</a>
