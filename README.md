@@ -1,6 +1,6 @@
 # Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement
 
-Implementation for ISBI 2024 paper Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement
+Implementation for ISBI 2024 paper <strong>Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement</strong>
 by Shizhan Gong, [Yuan Zhong](https://yzrealm.com/), Yuqi Gong, Nga Yan Chan, Wenao Ma, Calvin Hoi-Kwan Mak, Jill Abrigo, and [Qi Dou](https://www.cse.cuhk.edu.hk/~qdou/index.html).
 
 ## Sample Results
@@ -40,17 +40,17 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c 3d_fu
 We use the data stored in `.nii.gz` format, two sample cases can be found in the [sample_data](sample_data).
 
 ## Pre-trained Checkpoint
-We provide several pre-trained checkpoints trained on our dataset correponding to different folds. You can download the [checkpoint]() here.
+We provide several pre-trained checkpoints trained on our dataset correponding to different folds. You can download the [checkpoint](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155187960_link_cuhk_edu_hk/EpBtXy91doVOrFPfqA5YUmABKg9y1O9A-lwVtqFwXEBA-g?e=5pDB79) here.
 
 ## Bibtex
 If you find this work helpful, you can cite our paper as follows:
 ```
-@article{gong2024segmentation,
-  title={Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement},
+@INPROCEEDINGS{gong2024segmentation,
   author={Gong, Shizhan and Zhong, Yuan and Gong, Yuqi and Chan, Nga Yan and Ma, Wenao and Mak, Calvin Hoi-Kwan and Abrigo, Jill and Dou, Qi},
-  journal={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  booktitle={2024 IEEE 21th International Symposium on Biomedical Imaging (ISBI)}, 
+  title={Segmentation of Tiny Intracranial Hemorrhage via Learning-to-Rank Local Feature Enhancement}, 
   year={2024}
-}
+ }
 ```
 ## Acknowledgement
 Our code is based on  [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
